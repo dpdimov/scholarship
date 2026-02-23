@@ -40,6 +40,13 @@ export default function Assessment({ scenarios, config, onComplete }: Assessment
   return (
     <div className="min-h-screen bg-[#fafafa] py-8">
       <div className="max-w-4xl mx-auto px-4">
+        {/* Exit link */}
+        <div className="mb-4">
+          <a href="/" className="text-sm text-gray-500 hover:text-gray-700 font-medium">
+            &larr; Exit assessment
+          </a>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-6">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">

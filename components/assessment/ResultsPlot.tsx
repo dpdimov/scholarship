@@ -24,15 +24,17 @@ export default function ResultsPlot({ x, y, config }: ResultsPlotProps) {
     <div className="relative mx-auto" style={{ width: `${size + 80}px`, height: `${size + 50}px` }}>
       {/* Y-axis label — outside the plot to the left */}
       <div
-        className="absolute text-xs text-gray-500 font-medium"
+        className="absolute text-xs text-gray-500 font-medium flex items-center justify-center"
         style={{
           left: '0px',
-          top: '50%',
-          transform: 'translateY(-50%) rotate(-90deg)',
-          whiteSpace: 'nowrap'
+          top: '0px',
+          width: '70px',
+          height: `${size}px`,
         }}
       >
-        {dim2.leftLabel} &#8592; &#8594; {dim2.rightLabel}
+        <span style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)', whiteSpace: 'nowrap' }}>
+          {dim2.leftLabel} &#8592; &#8594; {dim2.rightLabel}
+        </span>
       </div>
 
       {/* Plot area — shifted right to make room for label */}
