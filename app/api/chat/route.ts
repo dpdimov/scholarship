@@ -14,14 +14,19 @@ export async function POST(req: Request) {
     systemPrompt += `\n\n---\n\n# ASSESSMENT CONTEXT\n\nThe user has just completed the ${assessmentContext.assessmentName}. Here are their results:\n\n- **Style**: ${assessmentContext.style}\n- **Description**: ${assessmentContext.description}\n- **Key Traits**: ${assessmentContext.traits.join(', ')}\n- **Coordinates**: X=${assessmentContext.coordinates.x.toFixed(2)}, Y=${assessmentContext.coordinates.y.toFixed(2)}\n- **Position**: ${assessmentContext.position}\n\nUse these results to personalise the conversation. Reference the user's identified style where relevant, but treat the assessment as a starting point for reflection — not a definitive classification. Invite the user to explore what resonates and what surprises them.`
   }
 
+  // If no messages yet, inject a starter message to trigger the welcome greeting
+  const apiMessages = messages.length === 0
+    ? [{ role: 'user' as const, content: 'Hello' }]
+    : messages.map((m: { role: string; content: string }) => ({
+        role: m.role as 'user' | 'assistant',
+        content: m.content,
+      }))
+
   const stream = client.messages.stream({
     model: 'claude-sonnet-4-20250514',
     max_tokens: 4096,
     system: systemPrompt,
-    messages: messages.map((m: { role: string; content: string }) => ({
-      role: m.role as 'user' | 'assistant',
-      content: m.content,
-    })),
+    messages: apiMessages,
   })
 
   // Convert to SSE stream
