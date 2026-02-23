@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "id": "scholarly-identity",
+      "name": "Scholarly Identity Assessment",
+      "shortDescription": "Map your scholarly identity across four styles of scholarship.",
+      "version": "1.0.0",
+      "isActive": true,
+      "configFile": "scholarly-identity.json",
+      "estimatedTime": "5-8 minutes",
+      "questionCount": 12
+    },
+    {
+      "id": "conceptual-contribution",
+      "name": "Conceptual Contribution Assessment",
+      "shortDescription": "Map your approach to conceptual contribution across four spaces.",
+      "version": "1.0.0",
+      "isActive": true,
+      "configFile": "conceptual-contribution.json",
+      "estimatedTime": "5-8 minutes",
+      "questionCount": 12
+    }
+  ],
+  "defaultAssessment": "scholarly-identity",
+  "metadata": {
+    "lastUpdated": "2025-02-23",
+    "totalAssessments": 2,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "scholarly-identity",
+  "name": "Scholarly Identity Assessment",
+  "shortDescription": "Map your scholarly identity across four styles of scholarship based on The Entrepreneurial Scholar (Dimov, 2020).",
+  "dimensions": [
+    {
+      "name": "Precision-Scope",
+      "description": "The tension between isolating specific aspects for precision versus merging viewpoints into a holistic case.",
+      "categories": ["Isolating/Precision", "Merging/Scope"],
+      "leftLabel": "Isolating / Precision",
+      "rightLabel": "Merging / Scope"
+    },
+    {
+      "name": "Descriptive-Design",
+      "description": "The tension between describing the world as it is versus designing ways to improve practice.",
+      "categories": ["Descriptive Science", "Design Science"],
+      "leftLabel": "Descriptive Science",
+      "rightLabel": "Design Science"
+    }
+  ],
+  "scenarioSets": [
+    {
+      "dimension": "Precision-Scope",
+      "scenarios": [
+        {
+          "id": "si-ps-1",
+          "stem": "You are beginning a new research project on how entrepreneurs deal with uncertainty.",
+          "leftOption": "You focus on one theoretical lens — say, real options theory — and design a study that tests its specific predictions about how entrepreneurs stage investments under uncertainty.",
+          "rightOption": "You study several entrepreneurs in depth, drawing on multiple theories — cognitive, economic, sociological — to build a rich, contextualised picture of how they actually navigate uncertainty.",
+          "leftCategory": "Isolating/Precision",
+          "rightCategory": "Merging/Scope",
+          "dimension": "Precision-Scope"
+        },
+        {
+          "id": "si-ps-2",
+          "stem": "A colleague asks you to review a paper about entrepreneurial networking.",
+          "leftOption": "You evaluate whether the paper makes a clear contribution to a specific body of theory — for example, whether it advances social capital theory by identifying a new mechanism or boundary condition.",
+          "rightOption": "You evaluate whether the paper captures the complexity of how networking actually works in practice — even if that means drawing on several theoretical perspectives simultaneously.",
+          "leftCategory": "Isolating/Precision",
+          "rightCategory": "Merging/Scope",
+          "dimension": "Precision-Scope"
+        },
+        {
+          "id": "si-ps-3",
+          "stem": "You are developing a new construct for your research area.",
+          "leftOption": "You aim for a tightly defined construct with clear boundaries, distinguishing it precisely from related constructs in the same theoretical domain.",
+          "rightOption": "You develop a composite construct that draws together insights from several domains, capturing the multi-faceted nature of the phenomenon even if the boundaries are broader.",
+          "leftCategory": "Isolating/Precision",
+          "rightCategory": "Merging/Scope",
+          "dimension": "Precision-Scope"
+        },
+        {
+          "id": "si-ps-4",
+          "stem": "You are choosing a methodology for studying entrepreneurial decision-making.",
+          "leftOption": "You design a controlled experiment or structured survey that can isolate specific variables and test hypotheses derived from a single theoretical framework.",
+          "rightOption": "You design a comparative case study that follows entrepreneurs over time, allowing patterns to emerge across the full range of factors influencing their decisions.",
+          "leftCategory": "Isolating/Precision",
+          "rightCategory": "Merging/Scope",
+          "dimension": "Precision-Scope"
+        },
+        {
+          "id": "si-ps-5",
+          "stem": "You are writing the theoretical contribution section of your paper.",
+          "leftOption": "You articulate how your findings refine a specific model — filling a gap, clarifying a relationship, or specifying a boundary condition within that theoretical tradition.",
+          "rightOption": "You articulate how your findings reveal connections between different theoretical perspectives — suggesting a more integrative view that neither tradition captures alone.",
+          "leftCategory": "Isolating/Precision",
+          "rightCategory": "Merging/Scope",
+          "dimension": "Precision-Scope"
+        },
+        {
+          "id": "si-ps-6",
+          "stem": "A PhD student asks you which cases would be most interesting to study.",
+          "leftOption": "You suggest cases that represent a clear instance of a theoretical puzzle — selected because they allow a sharp test of a specific theoretical claim.",
+          "rightOption": "You suggest extreme or unusual cases that are interesting precisely because they resist simple theoretical explanations and reveal the full complexity of the phenomenon.",
+          "leftCategory": "Isolating/Precision",
+          "rightCategory": "Merging/Scope",
+          "dimension": "Precision-Scope"
+        }
+      ]
+    },
+    {
+      "dimension": "Descriptive-Design",
+      "scenarios": [
+        {
+          "id": "si-dd-1",
+          "stem": "You are deciding the overall purpose of your next research programme.",
+          "leftOption": "You want to explain why certain patterns exist — building and testing theoretical models that accurately represent how the entrepreneurial world works.",
+          "rightOption": "You want to develop tools, frameworks, or approaches that entrepreneurs can use to improve what they do — contributing directly to better practice.",
+          "leftCategory": "Descriptive Science",
+          "rightCategory": "Design Science",
+          "dimension": "Descriptive-Design"
+        },
+        {
+          "id": "si-dd-2",
+          "stem": "You have just completed a field study with several entrepreneurs.",
+          "leftOption": "You focus on generating theoretical insights — identifying causal mechanisms and patterns that explain what you observed, for a scholarly audience.",
+          "rightOption": "You focus on distilling practical principles — what worked, what didn't, and how the tools or approaches you observed could be refined and shared with practitioners.",
+          "leftCategory": "Descriptive Science",
+          "rightCategory": "Design Science",
+          "dimension": "Descriptive-Design"
+        },
+        {
+          "id": "si-dd-3",
+          "stem": "You are thinking about how your research relates to the entrepreneurial community.",
+          "leftOption": "You see yourself as studying entrepreneurs — looking at their world from the outside, aiming for accurate representation and understanding of what is happening.",
+          "rightOption": "You see yourself as working alongside entrepreneurs — helping them see and improve their own practice, with your research serving as a means of contribution.",
+          "leftCategory": "Descriptive Science",
+          "rightCategory": "Design Science",
+          "dimension": "Descriptive-Design"
+        },
+        {
+          "id": "si-dd-4",
+          "stem": "Your university is redesigning its entrepreneurship curriculum and asks for your input.",
+          "leftOption": "You propose that courses should ground students in the research evidence — teaching the theories and empirical findings that explain entrepreneurial phenomena.",
+          "rightOption": "You propose that courses should develop students' practical skills — using simulations, real projects, and reflective exercises that build their ability to act entrepreneurially.",
+          "leftCategory": "Descriptive Science",
+          "rightCategory": "Design Science",
+          "dimension": "Descriptive-Design"
+        },
+        {
+          "id": "si-dd-5",
+          "stem": "You are evaluating a promising concept for a research project.",
+          "leftOption": "You ask: does this concept help us explain observable patterns more accurately? Does it fill a gap in our theoretical understanding?",
+          "rightOption": "You ask: does this concept help entrepreneurs do something new or better? Can it be turned into a practical tool that improves how they work?",
+          "leftCategory": "Descriptive Science",
+          "rightCategory": "Design Science",
+          "dimension": "Descriptive-Design"
+        },
+        {
+          "id": "si-dd-6",
+          "stem": "A practitioner organisation asks you to give a keynote speech about your research.",
+          "leftOption": "You present your findings as they are — sharing what the research shows about how entrepreneurship works, and letting the audience draw their own practical implications.",
+          "rightOption": "You reshape your findings into actionable frameworks — translating the research into principles and tools that practitioners can apply directly in their work.",
+          "leftCategory": "Descriptive Science",
+          "rightCategory": "Design Science",
+          "dimension": "Descriptive-Design"
+        }
+      ]
+    }
+  ],
+  "assessmentSettings": {
+    "questionsPerDimension": 4
+  },
+  "styleDefinitions": {
+    "quadrant1": {
+      "name": "Clinical Scholar",
+      "description": "You combine a holistic, generalist stance toward entrepreneurial practice with a commitment to design science. You bring broad familiarity with problems and tools under a systemic view, working closely with entrepreneurs to diagnose underlying issues and create frameworks for organising activity. Your focus is on double-loop learning — getting to the right framing of the problem, not just solving the one that is presented.",
+      "coordinates": { "x": "positive", "y": "positive" },
+      "traits": [
+        "Systemic thinker",
+        "Problem reframer",
+        "Close to practice",
+        "Broad toolkit",
+        "Diagnostic orientation",
+        "Reflective practitioner"
+      ]
+    },
+    "quadrant2": {
+      "name": "Craft Scholar",
+      "description": "You focus on a specific knowledge or practice domain combined with a commitment to design science. You develop familiarity with particular practices, evaluate their effectiveness, and work on improvement by developing or refining practical tools — including concepts, models, and methods that underpin art and skills. Your guiding question is whether tools help or work.",
+      "coordinates": { "x": "negative", "y": "positive" },
+      "traits": [
+        "Domain specialist",
+        "Tool builder",
+        "Practice-oriented",
+        "Skill developer",
+        "Teaching-focused",
+        "Solution designer"
+      ]
+    },
+    "quadrant3": {
+      "name": "Theoretical Scholar",
+      "description": "You combine a disciplinary focus on a particular knowledge domain with a commitment to descriptive science. You ground your research questions in specific theories, master their concepts and methodologies, and seek to increase theoretical consistency. Your contribution aims to get the world right — filling gaps, specifying boundary conditions, and refining models.",
+      "coordinates": { "x": "negative", "y": "negative" },
+      "traits": [
+        "Theoretically grounded",
+        "Disciplinary loyalty",
+        "Precision-focused",
+        "Gap-filler",
+        "Model builder",
+        "Rigorous methodology"
+      ]
+    },
+    "quadrant4": {
+      "name": "Integrative Scholar",
+      "description": "You combine a holistic stance across the full scope of entrepreneurial reality with a commitment to descriptive science. You maintain familiarity with a broad range of theories and perspectives, fitting them together for comprehensive understanding. You are drawn to what is different or missing, and to composite constructs that capture multiple facets.",
+      "coordinates": { "x": "positive", "y": "negative" },
+      "traits": [
+        "Cross-disciplinary",
+        "Pattern connector",
+        "Scope-oriented",
+        "Configuration thinker",
+        "Complexity embracer",
+        "Bridge builder"
+      ]
+    },
+    "borderNorth": {
+      "name": "Design-Oriented Scholar",
+      "description": "You are firmly oriented toward design science — contributing directly to improving entrepreneurial practice — but balance between focused and holistic approaches. You can work at both the level of specific tools and broader systemic frameworks.",
+      "coordinates": { "x": "neutral", "y": "positive" },
+      "traits": [
+        "Practice improver",
+        "Flexible scope",
+        "Action-oriented",
+        "Tool and framework builder"
+      ]
+    },
+    "borderSouth": {
+      "name": "Descriptive Science Scholar",
+      "description": "You are firmly oriented toward descriptive science — explaining and understanding the entrepreneurial world — but balance between disciplinary precision and cross-disciplinary integration.",
+      "coordinates": { "x": "neutral", "y": "negative" },
+      "traits": [
+        "Understanding-seeker",
+        "Flexible scope",
+        "Explanation-driven",
+        "Theory builder"
+      ]
+    },
+    "borderWest": {
+      "name": "Precision-Focused Scholar",
+      "description": "You favour isolating specific aspects for detailed study — whether for theoretical explanation or practical improvement. You value depth and clear boundaries in your work, regardless of whether it is aimed at theory or practice.",
+      "coordinates": { "x": "negative", "y": "neutral" },
+      "traits": [
+        "Depth-seeker",
+        "Specialist",
+        "Boundary-conscious",
+        "Focused contributor"
+      ]
+    },
+    "borderEast": {
+      "name": "Scope-Embracing Scholar",
+      "description": "You favour merging multiple viewpoints into a holistic understanding — whether for theoretical integration or practical systemic design. You value breadth and connectedness in your work.",
+      "coordinates": { "x": "positive", "y": "neutral" },
+      "traits": [
+        "Breadth-seeker",
+        "Generalist",
+        "Connection-maker",
+        "Holistic thinker"
+      ]
+    },
+    "center": {
+      "name": "Entrepreneurial Scholar",
+      "description": "You demonstrate exceptional balance across all four styles of scholarship — combining precision with scope, and descriptive understanding with practical design. Dimov argues that this versatility is the hallmark of the entrepreneurial scholar: one who can operate across all four quadrants, leveraging each style's strength as the inquiry demands.",
+      "coordinates": { "x": "neutral", "y": "neutral" },
+      "traits": [
+        "Versatile",
+        "All four moves mastered",
+        "Cycle-aware",
+        "Integrative thinker",
+        "Adaptive",
+        "Full-spectrum scholar"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-02-23",
+    "description": "Scholarly Identity Assessment based on The Entrepreneurial Scholar (Dimov, 2020)"
+  }
+}

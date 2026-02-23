@@ -1,0 +1,260 @@
+{
+  "id": "conceptual-contribution",
+  "name": "Conceptual Contribution Assessment",
+  "shortDescription": "Map your approach to conceptual contribution across four spaces based on Conceptual Housekeeping (Dimov, ERD 2024).",
+  "dimensions": [
+    {
+      "name": "Direction",
+      "description": "The direction of translation between theory and practice: from theoretical terms into practice, or from practical terms into theory.",
+      "categories": ["Theory→Practice", "Practice→Theory"],
+      "leftLabel": "Theory → Practice",
+      "rightLabel": "Practice → Theory"
+    },
+    {
+      "name": "Aspect",
+      "description": "Whether the contribution concerns intension (the internal structure of the theory) or extension (the contexts to which the theory applies).",
+      "categories": ["Intension", "Extension"],
+      "leftLabel": "Intension",
+      "rightLabel": "Extension"
+    }
+  ],
+  "scenarioSets": [
+    {
+      "dimension": "Direction",
+      "scenarios": [
+        {
+          "id": "cc-dir-1",
+          "stem": "You are introducing a concept that is central to your paper's contribution.",
+          "leftOption": "You draw the concept from an established theoretical framework and show how it illuminates a practical domain — using theoretical language to make sense of what practitioners do.",
+          "rightOption": "You draw the concept from what practitioners actually say and do, and argue that this practical term captures something that existing theory misses — bringing practitioner language into scholarly discourse.",
+          "leftCategory": "Theory→Practice",
+          "rightCategory": "Practice→Theory",
+          "dimension": "Direction"
+        },
+        {
+          "id": "cc-dir-2",
+          "stem": "You are positioning the novelty of your research contribution.",
+          "leftOption": "The novelty lies in applying a well-established theoretical concept to a new practical domain — demonstrating how the concept works in a context where it has not been used before.",
+          "rightOption": "The novelty lies in identifying a phenomenon in practice that does not yet have a good theoretical label — and proposing a concept that captures it and brings it into scholarly conversation.",
+          "leftCategory": "Theory→Practice",
+          "rightCategory": "Practice→Theory",
+          "dimension": "Direction"
+        },
+        {
+          "id": "cc-dir-3",
+          "stem": "You are designing a study that connects theory and data.",
+          "leftOption": "You start from a theoretical model, derive specific expectations, and look for a practical setting where those expectations can be observed — the theory guides your engagement with the field.",
+          "rightOption": "You start from immersion in a practical setting, identify puzzles or patterns that practitioners navigate, and search for or develop theoretical language that captures them.",
+          "leftCategory": "Theory→Practice",
+          "rightCategory": "Practice→Theory",
+          "dimension": "Direction"
+        },
+        {
+          "id": "cc-dir-4",
+          "stem": "A reviewer asks you to clarify the bridge between your concepts and the empirical world.",
+          "leftOption": "You strengthen the deductive chain — showing how your theoretical construct logically maps onto observable features of the practical setting, with clear operationalisation.",
+          "rightOption": "You strengthen the inductive chain — showing how observations from the field prompted the conceptual distinctions you propose, grounding them in the language and experience of participants.",
+          "leftCategory": "Theory→Practice",
+          "rightCategory": "Practice→Theory",
+          "dimension": "Direction"
+        },
+        {
+          "id": "cc-dir-5",
+          "stem": "You are choosing key references for framing your paper.",
+          "leftOption": "You anchor in a core body of theory and show how each key term is defined within that framework, using it as a lens to examine what happens in practice.",
+          "rightOption": "You anchor in rich empirical work and practitioner accounts, showing how recurring themes in practice point to conceptual gaps that your paper addresses.",
+          "leftCategory": "Theory→Practice",
+          "rightCategory": "Practice→Theory",
+          "dimension": "Direction"
+        },
+        {
+          "id": "cc-dir-6",
+          "stem": "You are mentoring a PhD student who asks: where should my conceptual contribution come from?",
+          "leftOption": "You advise them to master a theoretical tradition first and then look for practical contexts where its concepts can do new analytical work — the contribution flows from theory outward.",
+          "rightOption": "You advise them to spend time in the field first, learn the language practitioners use, and then develop concepts that bring those practical realities into theoretical conversation — the contribution flows from practice inward.",
+          "leftCategory": "Theory→Practice",
+          "rightCategory": "Practice→Theory",
+          "dimension": "Direction"
+        }
+      ]
+    },
+    {
+      "dimension": "Aspect",
+      "scenarios": [
+        {
+          "id": "cc-asp-1",
+          "stem": "You are articulating what your paper adds to the literature.",
+          "leftOption": "Your contribution is about the internal structure of a theory — clarifying relationships between constructs, refining definitions, resolving ambiguities, or specifying mechanisms within the existing framework.",
+          "rightOption": "Your contribution is about the reach of a theory — showing it applies in a new context, domain, or population where it has not previously been tested or demonstrated.",
+          "leftCategory": "Intension",
+          "rightCategory": "Extension",
+          "dimension": "Aspect"
+        },
+        {
+          "id": "cc-asp-2",
+          "stem": "A reviewer says your paper needs a stronger contribution statement.",
+          "leftOption": "You respond by sharpening the conceptual architecture — showing how your work resolves a specific tension or gap within the theory's internal logic.",
+          "rightOption": "You respond by strengthening the empirical reach — showing that the theory works in an important new setting, expanding the domain of its application.",
+          "leftCategory": "Intension",
+          "rightCategory": "Extension",
+          "dimension": "Aspect"
+        },
+        {
+          "id": "cc-asp-3",
+          "stem": "You discover that a key concept in your field is used inconsistently across studies.",
+          "leftOption": "You see this as an opportunity to clarify the concept's internal meaning — distinguishing its core features, specifying what it is and is not, and proposing a more precise definition.",
+          "rightOption": "You see this as an opportunity to map the concept's range of application — exploring the different contexts where it has been used and what those uses reveal about the concept's versatility.",
+          "leftCategory": "Intension",
+          "rightCategory": "Extension",
+          "dimension": "Aspect"
+        },
+        {
+          "id": "cc-asp-4",
+          "stem": "You are deciding how to frame the 'gap' your paper addresses.",
+          "leftOption": "The gap is internal to the theory: an underspecified relationship, a missing mechanism, or a construct that needs decomposing or clarifying.",
+          "rightOption": "The gap is external: the theory has not yet been brought to bear on a particular domain, context, or population where it could be valuable.",
+          "leftCategory": "Intension",
+          "rightCategory": "Extension",
+          "dimension": "Aspect"
+        },
+        {
+          "id": "cc-asp-5",
+          "stem": "You are evaluating whether your study has produced a meaningful conceptual advance.",
+          "leftOption": "You assess this by asking whether the theory's internal structure is now more coherent, precise, or differentiated than before your work — whether you have made the conceptual architecture stronger.",
+          "rightOption": "You assess this by asking whether the theory now applies to settings it could not previously reach — whether you have expanded its territory and demonstrated its usefulness in new ground.",
+          "leftCategory": "Intension",
+          "rightCategory": "Extension",
+          "dimension": "Aspect"
+        },
+        {
+          "id": "cc-asp-6",
+          "stem": "You are planning a series of papers around a central concept.",
+          "leftOption": "Your series progressively refines the concept — the first paper introduces it, subsequent papers clarify its boundaries, decompose its sub-dimensions, and specify its relationship to adjacent constructs.",
+          "rightOption": "Your series progressively extends the concept — the first paper establishes it in one context, subsequent papers demonstrate its value in increasingly different domains and empirical settings.",
+          "leftCategory": "Intension",
+          "rightCategory": "Extension",
+          "dimension": "Aspect"
+        }
+      ]
+    }
+  ],
+  "assessmentSettings": {
+    "questionsPerDimension": 4
+  },
+  "styleDefinitions": {
+    "quadrant1": {
+      "name": "Broadening",
+      "description": "You tend to introduce practical terms into theory to extend its reach to new contexts. Your contributions serve as gateways — bringing practitioner language and experience into scholarly discourse in ways that open up new domains for the theory. Like the introduction of 'guanxi' to extend social network perspectives to entrepreneurship in China, your work makes theory available in settings it had not previously reached.",
+      "coordinates": { "x": "positive", "y": "positive" },
+      "traits": [
+        "Context-sensitive",
+        "Practice-grounded",
+        "Domain expander",
+        "Gateway builder",
+        "Empirically attuned",
+        "Cross-context thinker"
+      ]
+    },
+    "quadrant2": {
+      "name": "Extending",
+      "description": "You tend to use theoretical terms in practice to extend the theory's reach. Your contributions articulate new outposts for the theory — demonstrating that established theoretical concepts do meaningful work in contexts where they have not previously been applied. Like introducing bricolage from anthropology to extend entrepreneurship theory to resource-constrained contexts.",
+      "coordinates": { "x": "negative", "y": "positive" },
+      "traits": [
+        "Theory carrier",
+        "Domain explorer",
+        "Outpost builder",
+        "Cross-context applicator",
+        "Reach-oriented",
+        "Versatile translator"
+      ]
+    },
+    "quadrant3": {
+      "name": "Refining",
+      "description": "You tend to use theoretical terms in practice to refine the internal structure of a theory. Your contributions arise from how bridging particular experiences can be mapped onto the theory's architecture — clarifying relationships, resolving ambiguities, and specifying mechanisms. Like qualitative work showing opportunity recognition entails structural alignment of technologies and markets.",
+      "coordinates": { "x": "negative", "y": "negative" },
+      "traits": [
+        "Theory sharpener",
+        "Mechanism specifier",
+        "Precision-oriented",
+        "Internal architecture focus",
+        "Deductive thinker",
+        "Conceptual clarifier"
+      ]
+    },
+    "quadrant4": {
+      "name": "Enriching",
+      "description": "You tend to introduce practical terms into theory to increase its internal richness. Your contributions expand the conceptual framework by bringing in new distinctions drawn from practice. Like the introduction of 'entrepreneurial hustle' to bring attention to urgency and intensity — your work makes theory richer by adding what it was missing from the inside.",
+      "coordinates": { "x": "positive", "y": "negative" },
+      "traits": [
+        "Concept creator",
+        "Practice listener",
+        "Distinction maker",
+        "Framework enricher",
+        "Inductive thinker",
+        "Language innovator"
+      ]
+    },
+    "borderNorth": {
+      "name": "Extension-Oriented Contributor",
+      "description": "You are primarily oriented toward extending the reach of theory — making it applicable in new domains and contexts — but balance between using established theoretical terms and introducing practical ones as bridges.",
+      "coordinates": { "x": "neutral", "y": "positive" },
+      "traits": [
+        "Reach expander",
+        "Context navigator",
+        "Flexible translator",
+        "Domain connector"
+      ]
+    },
+    "borderSouth": {
+      "name": "Intension-Oriented Contributor",
+      "description": "You are primarily oriented toward the internal structure of theory — making it more precise, coherent, and well-specified — but balance between refining with theoretical tools and enriching with practical insights.",
+      "coordinates": { "x": "neutral", "y": "negative" },
+      "traits": [
+        "Architecture builder",
+        "Coherence seeker",
+        "Precision enhancer",
+        "Structure-focused"
+      ]
+    },
+    "borderWest": {
+      "name": "Theory-to-Practice Translator",
+      "description": "You consistently work from theory toward practice — using established theoretical frameworks to illuminate practical domains — but balance between refining the theory's internal structure and extending its reach to new contexts.",
+      "coordinates": { "x": "negative", "y": "neutral" },
+      "traits": [
+        "Theory-grounded",
+        "Deductive orientation",
+        "Framework applicator",
+        "Structured contributor"
+      ]
+    },
+    "borderEast": {
+      "name": "Practice-to-Theory Translator",
+      "description": "You consistently work from practice toward theory — drawing concepts and insights from the empirical world into scholarly discourse — but balance between enriching the theory's internal framework and broadening its contextual reach.",
+      "coordinates": { "x": "positive", "y": "neutral" },
+      "traits": [
+        "Practice-grounded",
+        "Inductive orientation",
+        "Concept discoverer",
+        "Empirically driven"
+      ]
+    },
+    "center": {
+      "name": "Balanced Contributor",
+      "description": "You demonstrate exceptional balance across all four spaces of conceptual contribution. You are equally comfortable working from theory to practice and from practice to theory, and attending to both the internal structure and the external reach of the theories you engage with. This versatility allows you to choose the most appropriate contribution strategy for each piece of work.",
+      "coordinates": { "x": "neutral", "y": "neutral" },
+      "traits": [
+        "Versatile contributor",
+        "Multi-modal thinker",
+        "Strategically flexible",
+        "Full-spectrum awareness",
+        "Adaptive",
+        "Contribution-conscious"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-02-23",
+    "description": "Conceptual Contribution Assessment based on Philosophy of Entrepreneurship as Conceptual Housekeeping (Dimov, ERD 2024)"
+  }
+}
